@@ -13,3 +13,7 @@ https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-ma
 I did some research, and trying this solution found in stack overflow : link: https://stackoverflow.com/questions/21277806/fatal-early-eof-fatal-index-pack-failed 
 
 note: problem solved with setting an unlimited packedGitLimit, I guess the EOF was caused by the defalut memory limit in git configuration. 
+
+# problem in Step two, caused by the --recursive flag, 
+in order to comeplet the Setup, you must completee the installation of the esp_idf , from the esp documentation, and then completing the installation via the esp extension, so that the get to recgonize each other 
+=> this is configuration of the setup step is done ! 
