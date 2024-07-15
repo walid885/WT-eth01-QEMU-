@@ -8,3 +8,6 @@ refer to this link of the documentation : https://wiki.qemu.org/Hosts/Linux#Buil
 
 here is the installation process down below: taking track of the data of the link of documentation:  
 https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html
+
+# problem in Step two, caused by the --recursive flag, 
+I did some research, and trying this solution found in stack overflow : link: https://stackoverflow.com/questions/21277806/fatal-early-eof-fatal-index-pack-failed 
